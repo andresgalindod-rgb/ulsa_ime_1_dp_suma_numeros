@@ -15,9 +15,15 @@ int main() {
     // 3. Ciclo: repetir CANTIDAD veces
     //    TODO: elige un ciclo (for o while) y usa un contador
     //    TODO: pedir el numero, leerlo y acumularlo en suma
+    for (int contador = 1; contador <= CANTIDAD; contador++) {
+        std::cout << "Numero " << contador << " de " << CANTIDAD << ": ";
+        std::cin >> numero;
+        suma = suma + numero;
+    }
 
     // 4. Salida
     //    TODO: mostrar el total
+    std::cout << "Total: " << suma << "\n";
 
     // ¿Qué significa return 0;?
     return 0;
