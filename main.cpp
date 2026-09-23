@@ -7,7 +7,7 @@ int main() {
     const int CANTIDAD = 5;
 
     // 2. Variables (siempre inicializadas)
-    double suma   = 0.0;
+    double suma = 0.0;
     double numero = 0.0;
 
     std::cout << "Suma de " << CANTIDAD << " numeros\n";
